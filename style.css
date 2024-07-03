@@ -163,26 +163,6 @@ a{
     margin:2px;
 }
 
-
-
-/* @media(min-width:900px){
-    .content1{
-        height:40vh;
-    }
-    .bottom{
-        height:20vh;
-    }
-    .content2{
-        height: 30vh;    
-    }
-    .content3{
-        height:15vh;
-    }
-    .footer{
-        height:30vh;
-    }
-} */
-
 @media (min-width:600px)and (max-width:900px){
     .content1{
         height:40vh;
@@ -243,6 +223,9 @@ a{
         width:80%;
         margin:0.5rem;
     }
+    .foot1{
+        font-size: 1rem;
+    }
 }
 
 @media(max-width:400px){
@@ -280,7 +263,7 @@ a{
     }
     
     .footer{
-        height:20vh;
+        height:25vh;
     }
 
     .footer-inside h1{
@@ -295,5 +278,8 @@ a{
     .footer-inside {
         width:90%;
         margin:0.5rem;
+    }
+    .foot1{
+  font-size: 0.5rem;
     }
 }
