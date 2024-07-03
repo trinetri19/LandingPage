@@ -165,7 +165,7 @@ a{
 
 
 
-@media(min-width:900px){
+/* @media(min-width:900px){
     .content1{
         height:40vh;
     }
@@ -181,7 +181,7 @@ a{
     .footer{
         height:30vh;
     }
-}
+} */
 
 @media (min-width:600px)and (max-width:900px){
     .content1{
