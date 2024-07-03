@@ -74,6 +74,7 @@ button:hover{
     width:30%;
     background-color:aqua;
     margin:1rem auto;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,7 +162,28 @@ a{
 .foot1 p{
     margin:2px;
 }
-@media(max-width:900px){
+
+
+
+@media(min-width:900px){
+    .content1{
+        height:40vh;
+    }
+    .bottom{
+        height:20vh;
+    }
+    .content2{
+        height: 30vh;    
+    }
+    .content3{
+        height:15vh;
+    }
+    .footer{
+        height:30vh;
+    }
+}
+
+@media (min-width:600px)and (max-width:900px){
     .content1{
         height:40vh;
     }
@@ -181,10 +203,97 @@ a{
         height:30vh;
     }
     .footer-inside h1{
-        font-size: 2rem;
+        font-size: 2.8rem;
     }
     .footer-inside h2{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
+}
+
+@media(min-width:400px) and (max-width:600px){
+    .content1{
+        height:35vh;
+    }
+    .bottom{
+        height:15vh;
+    }
+    .content2{
+        height:50vh;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card-con{
+        width:80%;
+    }
+    .content3{
+        height:10vh;
+    }
+    .footer{
+        height:25vh;
+    }
+    .footer-inside h1{
+        font-size: 2.5rem;
+    }
+    .footer-inside h2{
+        font-size: 2rem;
+    }
+    .footer-inside {
+        width:80%;
+        margin:0.5rem;
+    }
+}
+
+@media(max-width:400px){
+    .content1{
+        height:30vh;
+    }
+    .top h1{
+        font-size: 3rem;
+    }
+    .top h3{
+        font-size: 1rem;
+    }
+    .bottom{
+        height:15vh;
+    }
+    .bottom h3{
+        font-size: 1rem;
+    }
+    button{
+        height:2rem;
+        width:8rem;
+        font-size:1rem ;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card-con{
+        width:80%;
+        font-size: .7rem;
+        text-align: center;
+    }
+    .content3{
+        height:20vh;
+        font-size: 1rem;
+    }
+    
+    .footer{
+        height:20vh;
+    }
+
+    .footer-inside h1{
+        font-size: 1.6rem;
+    }
+    .footer-inside h2,i{
+        font-size: 1.2rem;
+    }
+    .footer-inside i{
+        font-size: 1.2rem;
+    }
+    .footer-inside {
+        width:90%;
+        margin:0.5rem;
+    }
 }
