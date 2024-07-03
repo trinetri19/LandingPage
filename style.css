@@ -189,6 +189,10 @@ a{
         font-size: 2rem;
     }
 
+ .foot1 {
+    font-size:1rem;
+ }
+
 }
 
 @media(min-width:400px) and (max-width:600px){
@@ -224,7 +228,7 @@ a{
         margin:0.5rem;
     }
     .foot1{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
 
